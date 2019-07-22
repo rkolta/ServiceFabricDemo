@@ -51,7 +51,6 @@ namespace UserActor
         {
             var basket = new List<BasketItem>();
             var productIds = await StateManager.GetStateNamesAsync();
-
             foreach(var productId in productIds)
             {
                 int quantity = await StateManager.GetStateAsync<int>(productId);

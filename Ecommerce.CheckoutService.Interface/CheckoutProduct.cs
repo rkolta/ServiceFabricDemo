@@ -1,4 +1,6 @@
-﻿namespace Ecommerce.CheckoutService.Interface
+﻿using ECommerce.ProductCatalog.Model;
+
+namespace Ecommerce.CheckoutService.Interface
 {
     public class CheckoutProduct
     {
